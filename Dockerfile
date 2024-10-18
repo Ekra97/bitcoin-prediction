@@ -25,5 +25,6 @@ ENV PATH="/app/venv/bin:$PATH"
 EXPOSE 5000
 
 # Run the Flask app using the virtual environment's Python
-CMD ["python", "bitcoin_prediction.py"]
+CMD ["/app/venv/bin/python", "predictions.py"]
+
 
